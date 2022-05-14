@@ -22,7 +22,12 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+}
+
+/* Favicon */
+.favicon {
+  border-radius: 100%;
 }
 
 /* Navigation Bar */
@@ -55,14 +60,18 @@ h2 {
 /* Title Image */
 
 .title-image {
-  width: 50%;
+  width: 18%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
 
 #features {
+  padding: 5% 10%;
   position: relative;
+  background-color: #fff;
 }
 
 .feature-title {
@@ -109,4 +118,19 @@ h2 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body {
+  border-color: #000;
 }
